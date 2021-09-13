@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\fluidsynth-Win32">
+      <UniqueIdentifier>{d1dd5af6-848c-44f9-89e4-92887c17d998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fluidsynth-Win32\fluidsynth">
+      <UniqueIdentifier>{535bb29f-fa89-405a-9f66-f4e9285324c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MidiFile">
+      <UniqueIdentifier>{722420f1-7766-417f-aa71-bd7b6c98255d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nlohmann-json">
+      <UniqueIdentifier>{cb10f421-250c-40f5-94f9-81fc52a4c8c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MidiExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiFileHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiHelperData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiEvent.cpp">
+      <Filter>Source Files\MidiFile</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiTrack.cpp">
+      <Filter>Source Files\MidiFile</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiFile.cpp">
+      <Filter>Source Files\MidiFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MidiFileHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiHelperData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth.h">
+      <Filter>Header Files\fluidsynth-Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\audio.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\event.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\gen.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\ladspa.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\log.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\midi.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\misc.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\mod.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\seq.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\seqbind.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\settings.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\sfont.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\shell.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\synth.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\types.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\version.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fluidsynth-Win32\include\fluidsynth\voice.h">
+      <Filter>Header Files\fluidsynth-Win32\fluidsynth</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiEvent.h">
+      <Filter>Source Files\MidiFile</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiTrack.h">
+      <Filter>Source Files\MidiFile</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiFile.h">
+      <Filter>Source Files\MidiFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlohmann-json\json.hpp">
+      <Filter>Header Files\nlohmann-json</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
